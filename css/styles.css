@@ -47,11 +47,11 @@ img {
 .container-header {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc;
+    
     
 }
 .header {
-    
+    border-bottom: 1px solid #e7e9fc;
 }
 .nav {
     display: flex;
@@ -108,6 +108,7 @@ img {
 }
 .address-menu {
     display: flex;
+    gap: 40px;
 }
 .address-item {}
 
@@ -191,7 +192,7 @@ padding: 120px 0;
 }
 
 .feature-item {
-    width: calc((100% - 74.37px)/4);
+    width: calc((100% - 72px)/4);
     
 }
 
